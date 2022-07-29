@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div>
+  <section class="body">
+
+      <img src="image-product-desktop.jpg" alt="perfume">
+      <div class="info">
+        <h5>P E R F U M E</h5>
+        <div>
+         <h2> Gabrielle Essence <br> Eau De Parfum</h2>
+      
+          <p>A floral, solar and voluptuous</p>
+          <p>1interpretation composed by</p>
+          <p>Olivier Polge, Perfumer-Creator</p>
+          <p>for the House of CHANEL.</p>
+        
+          <div class="price">
+            <h2>$149.99 <span><del>$169.99</del></span></h2>
+          </div>
+           
+        
+            <button type="submit" > <img src="/images/icon-cart.svg">  Add to Cart</button> 
+        </div>
+      </div>
+</div>
+
+  </section>
+</div>
+</body>
+</html>
